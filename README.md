@@ -28,6 +28,7 @@ The program emphasizes **robust input handling**, **modular design**, and **clea
 
 ## Sample Input
 
+```text
 56.7884 MDV 3 Tapp
 62.454  NGR 26 Hoss
 27.3388 AUS 24 Jahnke
@@ -39,18 +40,20 @@ The program emphasizes **robust input handling**, **modular design**, and **clea
 31.2319 LUX 34 Rutz
 
 
+```
 ## Sample Output
 
+```text
 Final results!!
-[1]  27.34 Jahnke      (AUS)  +0.00
-[2]  31.23 Rutz        (LUX)  +3.89
-[3]  50.10 Shoop       (MDV)  +22.76
-[4]  53.57 Dennis      (BRN)  +26.23
-[5]  56.79 Tapp        (MDV)  +29.45
-[6]  62.45 Hoss        (NGR)  +35.12
-[7]  63.66 Shattuck    (ESP)  +36.33
-[8]  71.31 Pierson     (ALG)  +43.98
-[9]  94.07 Frey        (SEY)  +66.73
+[1] 27.34 Jahnke   (AUS) +0.00
+[2] 31.23 Rutz     (LUX) +3.89
+[3] 50.10 Shoop    (MDV) +22.76
+[4] 53.57 Dennis   (BRN) +26.23
+[5] 56.79 Tapp     (MDV) +29.45
+[6] 62.45 Hoss     (NGR) +35.12
+[7] 63.66 Shattuck (ESP) +36.33
+[8] 71.31 Pierson  (ALG) +43.98
+[9] 94.07 Frey     (SEY) +66.73
 
 
 ---
@@ -61,5 +64,6 @@ Compile using `g++` (C++17):
 ```bash
 g++ -std=c++17 -Wall -Wextra -Werror rank.cpp rank_functions.cpp -o rank
 ./rank
+
 
 
