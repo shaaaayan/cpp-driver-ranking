@@ -27,3 +27,25 @@ The program emphasizes **robust input handling**, **modular design**, and **clea
 ---
 
 ## Sample Input
+
+56.7884 MDV 3 Tapp
+62.454 NGR 26 Hoss
+27.3388 AUS 24 Jahnke
+
+## Sample Output
+
+Final results!!
+[1] 27.34 Jahnke (AUS) +0.00
+[2] 31.23 Rutz (LUX) +3.89
+[3] 50.10 Shoop (MDV) +22.76
+
+
+---
+
+## Build & Run
+Compile using `g++` (C++17):
+
+```bash
+g++ -std=c++17 -Wall -Wextra -Werror rank.cpp rank_functions.cpp -o rank
+./rank
+
